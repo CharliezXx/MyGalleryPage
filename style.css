@@ -1,0 +1,35 @@
+body {
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: #F5DE92;
+    height: 50px;
+}
+
+nav {
+    background-color: #FEF2C8;
+    height: 25px;
+}
+
+section {
+    float: left;
+    width: 180px;
+    height: 100px;
+    background-color: #C5C4BF;
+}
+
+aside {
+    float: left;
+    width: 320px;
+    height: 100px;
+    background-color: rgb(233, 212, 192);
+}
+
+footer {
+    clear: both;
+    height: 50px;
+    background-color: #8d806c;
+}
