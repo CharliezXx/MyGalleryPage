@@ -1,43 +1,81 @@
+@font-face {
+    font-family: nos;
+    src: url(/fonts/blankenburg/Blankenburg.ttf);
+}
 body {
-    width: 1000px;
-    margin: 0 auto;
-
+    max-width: 100%;
+    margin: 0% 0%;
 }
 
 header {
-    background-color: #F5DE92;
-    height: 50px;
-    padding-top: 10px;
-    font-size: 38px;
+    background-color: hsl(0, 63%, 54%);
+    max-height: 50px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: clamp(24px, 3vw, 62px);
 }
 
 nav {
-    background-color: #FEF2C8;
+    position: sticky;
+    background-color: hsl(0, 29%, 60%);
     height: 25px;
-    padding: 5px;
+    padding: 5px; 
+    top: 0;
+    border: 2px solid hsl(0, 45%, 30%);
 }
 
 section {
-    float: left;
-    width: 300px;
-    height: 1000px;
-    background-color: #C5C4BF;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(59, 59, 59), rgb(56, 56, 56));
+    padding-bottom: 2%;
 }
 
 aside {
-    float: left;
-    width: 700px;
-    height: 1000px;
-    background-color: rgb(233, 212, 192);
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(56, 56, 56), rgb(59, 59, 59));
+    padding: 2%;
 }
 
 footer {
     clear: both;
+    border-top: 3px solid hsl(0, 53%, 19%);
     height: 50px;
-    background-color: #8d806c;
+    background-color: hsl(0, 63%, 54%);
 }
+
+img {
+    width: 200px;
+    height: 350px;
+    object-fit: cover;
+}
+
+
 .center {
     text-align: center;
+}
+
+.works {
+    font-size: 62px;
+    padding: 2%;
+    color: white;
+}
+.header-font {
+    font-family: nos;
+}
+.artshowcase {
+    background-color: #b6b6b6;
+    padding: 2%;
+    margin: 0 20%;
+    border-radius: 2px;
+}
+.commission{
+    color: white;
+    font-size: 62px;
+}
+.img-radius {
+    border-radius: 10px;
 }
 
 html {
