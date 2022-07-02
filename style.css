@@ -48,13 +48,7 @@ footer {
     height: 50px;
     background-color: hsl(0, 63%, 54%);
 }
-@media screen and (max-width: 500px){
-   img{
-    width: 150px;
-    height: 200px;
-    object-fit: cover;
-   }
-}
+
 img {
     width: 190px;
     height: 350px;
@@ -70,6 +64,7 @@ img {
     font-size: 62px;
     padding: 2%;
     color: white;
+    font-size: clamp(30px, 3vw, 62px);
 }
 .header-font {
     font-family: nos;
@@ -94,7 +89,7 @@ img {
 }
 .commission{
     color: white;
-    font-size: 62px;
+    font-size: clamp(30px, 3vw, 62px);
 }
 .img-radius {
     border-radius: 5px;
@@ -103,7 +98,7 @@ img {
 }
 .topic {
     text-align: left;
-    font-size: 42px;
+    font-size: clamp(24px, 3vw, 62px);
     font-family: nos;
 }
 html {
