@@ -2,9 +2,9 @@
     font-family: nos;
     src: url(/fonts/blankenburg/Blankenburg.ttf);
 }
+
 body {
     max-width: 100%;
-    margin: 0% 0%;
     background-image: url(https://raw.githubusercontent.com/CharliezXx/MyGalleryPage/main/img/backgorund.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,9 +23,9 @@ nav {
     position: sticky;
     background-color: hsl(0, 29%, 60%);
     height: 25px;
-    padding: 5px; 
+    padding: 5px;
     top: 0;
-    
+
 }
 
 section {
@@ -66,53 +66,64 @@ img {
     color: white;
     font-size: clamp(30px, 3vw, 62px);
 }
+
 .header-font {
     font-family: nos;
 }
+
 .artshowcase {
     background-color: #b6b6b6;
     padding: 2%;
     margin: 0 20%;
     border-radius: 2px;
 }
-.videoshowcase{
+
+.videoshowcase {
     background-color: #b6b6b6;
     padding: 2%;
     margin: 10px 20%;
     border-radius: 2px;
 }
-.video{
+
+.video {
     margin: 10px 5px;
     object-fit: cover;
     width: 190px;
     height: 190px;
 }
-.commission{
+
+.commission {
     color: white;
     font-size: clamp(30px, 3vw, 62px);
 }
+
 .img-radius {
     border-radius: 5px;
     margin: 5px 5px;
     border: 3px solid rgb(59, 59, 59);
 }
+
 .topic {
     text-align: left;
     font-size: clamp(24px, 3vw, 62px);
     font-family: nos;
 }
-.footer-text{
-    margin:10px 0px;
+
+.footer-text {
+    margin: 10px 0px;
 }
-.footer-img{
+
+.footer-img {
     height: 30px;
     width: 30px;
     margin: 10px 5px;
-    
+
 }
-.commission-info{
+
+.commission-info {
     color: white;
 }
+
 html {
     scroll-behavior: smooth;
 }

@@ -1,56 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Potatiz's Gallery</title>
      <link rel="stylesheet" href="style.css">
-     
+
      <div id="fb-root"></div>
      <script async defer crossorigin="anonymous"
           src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=592903212200837&autoLogAppEvents=1"
           nonce="nzKB0LD8"></script>
 
      <style>
-     @media screen and (max-width: 500px){
-          img{
-          width: 100px;
-          height: 100px;
-          object-fit: cover;
+          @media screen and (max-width: 950px) {
+               img {
+                    width: 150px;
+                    height: 150px;
+                    object-fit: cover;
+               }
+
+               .video {
+                    margin: 10px 5px;
+                    object-fit: cover;
+                    width: 150px;
+                    height: 150px;
+               }
+
+               .videoshowcase {
+                    background-color: #b6b6b6;
+                    padding: 2%;
+                    margin: 10px 10%;
+                    border-radius: 2px;
+               }
+
+               .artshowcase {
+                    background-color: #b6b6b6;
+                    padding: 2%;
+                    margin: 0 10%;
+                    border-radius: 2px;
+               }
+
+               body {
+                    max-width: 100%;
+                    background-image: url(https://raw.githubusercontent.com/CharliezXx/MyGalleryPage/main/img/backgorund.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin: 0 5%;
+               }
           }
-          .video{
-               margin: 10px 5px;
-               object-fit: cover;
-               width: 125px;
-               height: 125px;
+
+          @media screen and (max-width: 500px) {
+               img {
+                    width: 100px;
+                    height: 100px;
+                    object-fit: cover;
+               }
+
+               .video {
+                    margin: 10px 5px;
+                    object-fit: cover;
+                    width: 125px;
+                    height: 125px;
+               }
+
+               .videoshowcase {
+                    background-color: #b6b6b6;
+                    padding: 2%;
+                    margin: 10px 5%;
+                    border-radius: 2px;
+               }
+
+               .artshowcase {
+                    background-color: #b6b6b6;
+                    padding: 2%;
+                    margin: 0 5%;
+                    border-radius: 2px;
+               }
+
+               body {
+                    max-width: 100%;
+                    background-image: url(https://raw.githubusercontent.com/CharliezXx/MyGalleryPage/main/img/backgorund.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin: 0 0%;
+               }
           }
-          .videoshowcase{
-               background-color: #b6b6b6;
-               padding: 2%;
-               margin: 10px 5%;
-               border-radius: 2px;
-          }
-          .artshowcase {
-               background-color: #b6b6b6;
-               padding: 2%;
-               margin: 0 5%;
-               border-radius: 2px;
-          }
-          body {
-               max-width: 100%;
-               margin: 0% 0%;
-               background-image: url(https://raw.githubusercontent.com/CharliezXx/MyGalleryPage/main/img/backgorund.png);
-               background-repeat: no-repeat;
-               background-size: cover;
-               margin: 0 0%;
-          }
-     }
      </style>
 </head>
+
 <body>
      <!-- formatting elements -->
-     <header class="center header-font"> 
+     <header class="center header-font">
           Welcome to Potatiz's Gallery
      </header>
 
@@ -69,26 +111,66 @@
           <div class="center works">Potatiz's Works</div>
           <div class="center artshowcase">
                <div class="topic">Digitalart</div>
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/df8gx74-37585356-cc48-4034-ab7f-00781134155d.png/v1/fill/w_1280,h_1924,q_80,strp/riko_the_sovereign_of_children_by_katyucheee_df8gx74-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkyNCIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGY4Z3g3NC0zNzU4NTM1Ni1jYzQ4LTQwMzQtYWI3Zi0wMDc4MTEzNDE1NWQucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.SVOTTt0imdyq-90VkYAj7dn-lnXEADUaQ4LBFJZxZD8" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/df8gx0k-6b5dbcea-4cbe-4b5a-8e6f-9439ac6306a9.jpg/v1/fill/w_1280,h_1832,q_75,strp/ozen_the_immovable_by_katyucheee_df8gx0k-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgzMiIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGY4Z3gway02YjVkYmNlYS00Y2JlLTRiNWEtOGU2Zi05NDM5YWM2MzA2YTkuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.CBspgzxciaWEZk1x8WeSlTtUh9ACR3OFJQAYvMLkNW4" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/de94cw7-dc1bbf98-3ef6-4384-8530-580a16951d1d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGU5NGN3Ny1kYzFiYmY5OC0zZWY2LTQzODQtODUzMC01ODBhMTY5NTFkMWQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Nfg-ykNV0cXhH0TEeJYxw611x7FpQBJ2dbKd5wKnsj8" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/de81p91-3616bd90-9e9f-4b21-93d8-7501ca21b884.png/v1/fill/w_1280,h_720,q_80,strp/grim_reaper_by_katyucheee_de81p91-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNTA5MTc1MDMtYjA1YS00OTcwLWJlZjUtMGMwOTI2N2Q1MmFmXC9kZTgxcDkxLTM2MTZiZDkwLTllOWYtNGIyMS05M2Q4LTc1MDFjYTIxYjg4NC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.3ex4wNaL_A0iiXJeFZ1piUMRyKr0VCUyVBUwTl5vemk" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/df1w1x3-adcbcccf-3e5f-4ec4-b348-edd7b6d7fd98.png/v1/fill/w_1280,h_1842,q_80,strp/malenia_by_katyucheee_df1w1x3-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg0MiIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGYxdzF4My1hZGNiY2NjZi0zZTVmLTRlYzQtYjM0OC1lZGQ3YjZkN2ZkOTgucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.kqhGrRW1N-Ev1USm0SG2cXBEhIpwDh1tVdXQ6LfjNko" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/deez2ut-d39f7b68-773a-46fe-83d7-8fad23dae572.png/v1/fill/w_1280,h_1280,q_80,strp/himeno_by_katyucheee_deez2ut-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGVlejJ1dC1kMzlmN2I2OC03NzNhLTQ2ZmUtODNkNy04ZmFkMjNkYWU1NzIucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.s1CxKDTL-8YIssu65e-8_38xAqkBMey4K0B6mDpv-3w" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/dea1ft4-ec2d78d1-e47e-4696-98e8-c8404bccec02.png/v1/fill/w_1280,h_758,q_80,strp/aldrich_devourer_of_gods_by_katyucheee_dea1ft4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzU4IiwicGF0aCI6IlwvZlwvNTA5MTc1MDMtYjA1YS00OTcwLWJlZjUtMGMwOTI2N2Q1MmFmXC9kZWExZnQ0LWVjMmQ3OGQxLWU0N2UtNDY5Ni05OGU4LWM4NDA0YmNjZWMwMi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.nbSzMhKOlAhPWhUCmOL6b1Hlzw3NdCd1th_5HW5MPF0" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/de8i0fw-935280cc-01d0-40b0-ae43-45668eeb4b4e.png/v1/fill/w_1280,h_759,q_80,strp/wendy_and_abigail_by_katyucheee_de8i0fw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzU5IiwicGF0aCI6IlwvZlwvNTA5MTc1MDMtYjA1YS00OTcwLWJlZjUtMGMwOTI2N2Q1MmFmXC9kZThpMGZ3LTkzNTI4MGNjLTAxZDAtNDBiMC1hZTQzLTQ1NjY4ZWViNGI0ZS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.WD1k0_lGwmGYwIP9YqX2Zzve7iSnmhTzoXn9ZuX4R6E" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/deh35sp-e45ea8c0-55ea-4133-92c9-82249c44ee0e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGVoMzVzcC1lNDVlYThjMC01NWVhLTQxMzMtOTJjOS04MjI0OWM0NGVlMGUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.HfClj7fU_AySgQNLiyoz2OBJUcZe3vo5T_SALf1pZYI" alt="">   
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/demifjw-31014d47-c0dd-42c1-967d-ebf114e35191.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGVtaWZqdy0zMTAxNGQ0Ny1jMGRkLTQyYzEtOTY3ZC1lYmYxMTRlMzUxOTEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Kbva4OtlJYgr5J6s4qqXkOJnWxGkB-9JiSwhQpp_E7o" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/de82ry4-0d52d441-60af-47c6-90fb-6d4f8d4e0dbd.jpg/v1/fill/w_1280,h_768,q_75,strp/nameless_king_by_katyucheee_de82ry4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvNTA5MTc1MDMtYjA1YS00OTcwLWJlZjUtMGMwOTI2N2Q1MmFmXC9kZTgycnk0LTBkNTJkNDQxLTYwYWYtNDdjNi05MGZiLTZkNGY4ZDRlMGRiZC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19._AzBBy2KKwb-xHjLHiuT5UjPnJavUpzcI6co_avmHx4" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/de2xp98-afe00c91-0af1-4325-8054-b6fa86e8a5d5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGUyeHA5OC1hZmUwMGM5MS0wYWYxLTQzMjUtODA1NC1iNmZhODZlOGE1ZDUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qW7YpPzbU3xaAHUPiQDK0TqR1f_lY0kzdP2ErvMqvvs" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/de0ymkd-36812cd3-d453-4466-ad61-0772f6df81de.png/v1/fill/w_1280,h_720,q_80,strp/pointdown_by_katyucheee_de0ymkd-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNTA5MTc1MDMtYjA1YS00OTcwLWJlZjUtMGMwOTI2N2Q1MmFmXC9kZTB5bWtkLTM2ODEyY2QzLWQ0NTMtNDQ2Ni1hZDYxLTA3NzJmNmRmODFkZS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.5_SnMmjHPMX3tnyKuGuYuDXffZfiloLK4U6rOlpPtWE" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/ddy26sy-5494b908-2499-4813-a752-839b082e2520.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGR5MjZzeS01NDk0YjkwOC0yNDk5LTQ4MTMtYTc1Mi04MzliMDgyZTI1MjAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.2OjOOIsu1GAOwh1BCUc6FwnaKOMgU3xBlxsWX0nGhhU" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/deraabd-f88be602-793b-4bbd-8fd3-77dbfc11a813.png/v1/fill/w_1280,h_1362,q_80,strp/kazuha_by_katyucheee_deraabd-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTM2MiIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGVyYWFiZC1mODhiZTYwMi03OTNiLTRiYmQtOGZkMy03N2RiZmMxMWE4MTMucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.WsBro6YXlEHDJJk2V54ugUhvjjtzvbjPKnKN5Fl2sgU" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/deqozly-e3a35883-b0c6-4c2b-b9f6-a28a4adeeb1b.png/v1/fill/w_1280,h_1280,q_80,strp/pathetic___by_katyucheee_deqozly-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGVxb3pseS1lM2EzNTg4My1iMGM2LTRjMmItYjlmNi1hMjhhNGFkZWViMWIucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.FEHsJsCoxmYtH3w_pTMM5tNmMLPQU2FZSUVO367vFK4" alt="" >
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/dergcj2-1c73f7d9-9bc6-4d40-999b-b32a7317def5.jpg/v1/fill/w_1280,h_1280,q_75,strp/power__csw__by_katyucheee_dergcj2-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGVyZ2NqMi0xYzczZjdkOS05YmM2LTRkNDAtOTk5Yi1iMzJhNzMxN2RlZjUuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.OZOZFbvpvRZjTxZuRUfQKbMhpurxvRKMcCi0gIQ1DdE" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/ddwyr25-0293c185-773a-4f36-a71a-f9e1285f1bf0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGR3eXIyNS0wMjkzYzE4NS03NzNhLTRmMzYtYTcxYS1mOWUxMjg1ZjFiZjAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5rxEiQOtvxziHDBUR7OeIopUETxonNyxdGDFz-dlsOw" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/ddh6lhr-c6aad275-44d1-450c-8cd9-bd918437acb4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGRoNmxoci1jNmFhZDI3NS00NGQxLTQ1MGMtOGNkOS1iZDkxODQzN2FjYjQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GIcE_4gFYVo0Xkh_hKnZde6FJOg2M3XBhU_RHwoEDTw" alt="">
-               <img class="img-radius" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/ddb3l8p-d896e84c-302c-402b-8f3f-45cdee007aae.png/v1/fill/w_1280,h_1280,q_80,strp/gold_experience_requiem_by_katyucheee_ddb3l8p-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGRiM2w4cC1kODk2ZTg0Yy0zMDJjLTQwMmItOGYzZi00NWNkZWUwMDdhYWUucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.RcV3Mr-xcK96-ZOkQbSoHaqJ_Loe-bIpQl5EBfnnWBo" alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/df8gx74-37585356-cc48-4034-ab7f-00781134155d.png/v1/fill/w_1280,h_1924,q_80,strp/riko_the_sovereign_of_children_by_katyucheee_df8gx74-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkyNCIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGY4Z3g3NC0zNzU4NTM1Ni1jYzQ4LTQwMzQtYWI3Zi0wMDc4MTEzNDE1NWQucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.SVOTTt0imdyq-90VkYAj7dn-lnXEADUaQ4LBFJZxZD8"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/df8gx0k-6b5dbcea-4cbe-4b5a-8e6f-9439ac6306a9.jpg/v1/fill/w_1280,h_1832,q_75,strp/ozen_the_immovable_by_katyucheee_df8gx0k-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgzMiIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGY4Z3gway02YjVkYmNlYS00Y2JlLTRiNWEtOGU2Zi05NDM5YWM2MzA2YTkuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.CBspgzxciaWEZk1x8WeSlTtUh9ACR3OFJQAYvMLkNW4"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/de94cw7-dc1bbf98-3ef6-4384-8530-580a16951d1d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGU5NGN3Ny1kYzFiYmY5OC0zZWY2LTQzODQtODUzMC01ODBhMTY5NTFkMWQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Nfg-ykNV0cXhH0TEeJYxw611x7FpQBJ2dbKd5wKnsj8"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/de81p91-3616bd90-9e9f-4b21-93d8-7501ca21b884.png/v1/fill/w_1280,h_720,q_80,strp/grim_reaper_by_katyucheee_de81p91-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNTA5MTc1MDMtYjA1YS00OTcwLWJlZjUtMGMwOTI2N2Q1MmFmXC9kZTgxcDkxLTM2MTZiZDkwLTllOWYtNGIyMS05M2Q4LTc1MDFjYTIxYjg4NC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.3ex4wNaL_A0iiXJeFZ1piUMRyKr0VCUyVBUwTl5vemk"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/df1w1x3-adcbcccf-3e5f-4ec4-b348-edd7b6d7fd98.png/v1/fill/w_1280,h_1842,q_80,strp/malenia_by_katyucheee_df1w1x3-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg0MiIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGYxdzF4My1hZGNiY2NjZi0zZTVmLTRlYzQtYjM0OC1lZGQ3YjZkN2ZkOTgucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.kqhGrRW1N-Ev1USm0SG2cXBEhIpwDh1tVdXQ6LfjNko"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/deez2ut-d39f7b68-773a-46fe-83d7-8fad23dae572.png/v1/fill/w_1280,h_1280,q_80,strp/himeno_by_katyucheee_deez2ut-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGVlejJ1dC1kMzlmN2I2OC03NzNhLTQ2ZmUtODNkNy04ZmFkMjNkYWU1NzIucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.s1CxKDTL-8YIssu65e-8_38xAqkBMey4K0B6mDpv-3w"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/dea1ft4-ec2d78d1-e47e-4696-98e8-c8404bccec02.png/v1/fill/w_1280,h_758,q_80,strp/aldrich_devourer_of_gods_by_katyucheee_dea1ft4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzU4IiwicGF0aCI6IlwvZlwvNTA5MTc1MDMtYjA1YS00OTcwLWJlZjUtMGMwOTI2N2Q1MmFmXC9kZWExZnQ0LWVjMmQ3OGQxLWU0N2UtNDY5Ni05OGU4LWM4NDA0YmNjZWMwMi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.nbSzMhKOlAhPWhUCmOL6b1Hlzw3NdCd1th_5HW5MPF0"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/de8i0fw-935280cc-01d0-40b0-ae43-45668eeb4b4e.png/v1/fill/w_1280,h_759,q_80,strp/wendy_and_abigail_by_katyucheee_de8i0fw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzU5IiwicGF0aCI6IlwvZlwvNTA5MTc1MDMtYjA1YS00OTcwLWJlZjUtMGMwOTI2N2Q1MmFmXC9kZThpMGZ3LTkzNTI4MGNjLTAxZDAtNDBiMC1hZTQzLTQ1NjY4ZWViNGI0ZS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.WD1k0_lGwmGYwIP9YqX2Zzve7iSnmhTzoXn9ZuX4R6E"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/deh35sp-e45ea8c0-55ea-4133-92c9-82249c44ee0e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGVoMzVzcC1lNDVlYThjMC01NWVhLTQxMzMtOTJjOS04MjI0OWM0NGVlMGUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.HfClj7fU_AySgQNLiyoz2OBJUcZe3vo5T_SALf1pZYI"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/demifjw-31014d47-c0dd-42c1-967d-ebf114e35191.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGVtaWZqdy0zMTAxNGQ0Ny1jMGRkLTQyYzEtOTY3ZC1lYmYxMTRlMzUxOTEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Kbva4OtlJYgr5J6s4qqXkOJnWxGkB-9JiSwhQpp_E7o"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/de82ry4-0d52d441-60af-47c6-90fb-6d4f8d4e0dbd.jpg/v1/fill/w_1280,h_768,q_75,strp/nameless_king_by_katyucheee_de82ry4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvNTA5MTc1MDMtYjA1YS00OTcwLWJlZjUtMGMwOTI2N2Q1MmFmXC9kZTgycnk0LTBkNTJkNDQxLTYwYWYtNDdjNi05MGZiLTZkNGY4ZDRlMGRiZC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19._AzBBy2KKwb-xHjLHiuT5UjPnJavUpzcI6co_avmHx4"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/de2xp98-afe00c91-0af1-4325-8054-b6fa86e8a5d5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGUyeHA5OC1hZmUwMGM5MS0wYWYxLTQzMjUtODA1NC1iNmZhODZlOGE1ZDUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qW7YpPzbU3xaAHUPiQDK0TqR1f_lY0kzdP2ErvMqvvs"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/de0ymkd-36812cd3-d453-4466-ad61-0772f6df81de.png/v1/fill/w_1280,h_720,q_80,strp/pointdown_by_katyucheee_de0ymkd-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNTA5MTc1MDMtYjA1YS00OTcwLWJlZjUtMGMwOTI2N2Q1MmFmXC9kZTB5bWtkLTM2ODEyY2QzLWQ0NTMtNDQ2Ni1hZDYxLTA3NzJmNmRmODFkZS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.5_SnMmjHPMX3tnyKuGuYuDXffZfiloLK4U6rOlpPtWE"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/ddy26sy-5494b908-2499-4813-a752-839b082e2520.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGR5MjZzeS01NDk0YjkwOC0yNDk5LTQ4MTMtYTc1Mi04MzliMDgyZTI1MjAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.2OjOOIsu1GAOwh1BCUc6FwnaKOMgU3xBlxsWX0nGhhU"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/deraabd-f88be602-793b-4bbd-8fd3-77dbfc11a813.png/v1/fill/w_1280,h_1362,q_80,strp/kazuha_by_katyucheee_deraabd-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTM2MiIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGVyYWFiZC1mODhiZTYwMi03OTNiLTRiYmQtOGZkMy03N2RiZmMxMWE4MTMucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.WsBro6YXlEHDJJk2V54ugUhvjjtzvbjPKnKN5Fl2sgU"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/deqozly-e3a35883-b0c6-4c2b-b9f6-a28a4adeeb1b.png/v1/fill/w_1280,h_1280,q_80,strp/pathetic___by_katyucheee_deqozly-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGVxb3pseS1lM2EzNTg4My1iMGM2LTRjMmItYjlmNi1hMjhhNGFkZWViMWIucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.FEHsJsCoxmYtH3w_pTMM5tNmMLPQU2FZSUVO367vFK4"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/dergcj2-1c73f7d9-9bc6-4d40-999b-b32a7317def5.jpg/v1/fill/w_1280,h_1280,q_75,strp/power__csw__by_katyucheee_dergcj2-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGVyZ2NqMi0xYzczZjdkOS05YmM2LTRkNDAtOTk5Yi1iMzJhNzMxN2RlZjUuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.OZOZFbvpvRZjTxZuRUfQKbMhpurxvRKMcCi0gIQ1DdE"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/ddwyr25-0293c185-773a-4f36-a71a-f9e1285f1bf0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGR3eXIyNS0wMjkzYzE4NS03NzNhLTRmMzYtYTcxYS1mOWUxMjg1ZjFiZjAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5rxEiQOtvxziHDBUR7OeIopUETxonNyxdGDFz-dlsOw"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/ddh6lhr-c6aad275-44d1-450c-8cd9-bd918437acb4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGRoNmxoci1jNmFhZDI3NS00NGQxLTQ1MGMtOGNkOS1iZDkxODQzN2FjYjQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GIcE_4gFYVo0Xkh_hKnZde6FJOg2M3XBhU_RHwoEDTw"
+                    alt="">
+               <img class="img-radius"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/50917503-b05a-4970-bef5-0c09267d52af/ddb3l8p-d896e84c-302c-402b-8f3f-45cdee007aae.png/v1/fill/w_1280,h_1280,q_80,strp/gold_experience_requiem_by_katyucheee_ddb3l8p-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzUwOTE3NTAzLWIwNWEtNDk3MC1iZWY1LTBjMDkyNjdkNTJhZlwvZGRiM2w4cC1kODk2ZTg0Yy0zMDJjLTQwMmItOGYzZi00NWNkZWUwMDdhYWUucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.RcV3Mr-xcK96-ZOkQbSoHaqJ_Loe-bIpQl5EBfnnWBo"
+                    alt="">
                <br>
                <button><a href="https://www.instagram.com/potatiz_030/" target="_blank">more</a></button>
           </div>
@@ -96,42 +178,50 @@
           <!-- <img class="img-radius" src="" alt="" > -->
 
           <div class="center videoshowcase">
-               <div class="topic">Videos</div> 
-               <iframe class="video" src="https://www.youtube.com/embed/NbxFyXp9ihA" title="YouTube video player" frameborder="1"
+               <div class="topic">Videos</div>
+               <iframe class="video" src="https://www.youtube.com/embed/NbxFyXp9ihA" title="YouTube video player"
+                    frameborder="1"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-               <iframe class="video" src="https://www.youtube.com/embed/N6oBSLbNnkc"
-                    title="YouTube video player" frameborder="1"
+               <iframe class="video" src="https://www.youtube.com/embed/N6oBSLbNnkc" title="YouTube video player"
+                    frameborder="1"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-               allowfullscreen></iframe>
+                    allowfullscreen></iframe>
                <iframe class="video" src="https://www.youtube.com/embed/XNG9cjC4jnk" title="YouTube video player"
-                    frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe> 
-                    <br>
-               <button><a href="https://www.youtube.com/channel/UCfZQVq70uks8nm9DBDb0T7g" target="_blank">more</a></button>
+                    frameborder="1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+               <br>
+               <button><a href="https://www.youtube.com/channel/UCfZQVq70uks8nm9DBDb0T7g"
+                         target="_blank">more</a></button>
           </div>
 
           <div class="center videoshowcase">
                <div class="topic">Reecumz group</div>
-               <iframe class="video" src="https://www.youtube.com/embed/XsmjD884ia8" title="YouTube video player" frameborder="1"
+               <iframe class="video" src="https://www.youtube.com/embed/XsmjD884ia8" title="YouTube video player"
+                    frameborder="1"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-               <iframe class="video" src="https://www.youtube.com/embed/ZvCD9jiwcFc" title="YouTube video player" frameborder="1"
+               <iframe class="video" src="https://www.youtube.com/embed/ZvCD9jiwcFc" title="YouTube video player"
+                    frameborder="1"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-               <iframe class="video" src="https://www.youtube.com/embed/W-Ez418FHY4" title="YouTube video player" frameborder="1"
+               <iframe class="video" src="https://www.youtube.com/embed/W-Ez418FHY4" title="YouTube video player"
+                    frameborder="1"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-               <iframe class="video" src="https://www.youtube.com/embed/videoseries?list=PLWb0TaF5ZWAGn1WTlRWwKmwTPlNdx8UFl"
+               <iframe class="video"
+                    src="https://www.youtube.com/embed/videoseries?list=PLWb0TaF5ZWAGn1WTlRWwKmwTPlNdx8UFl"
                     title="YouTube video player" frameborder="1"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
                <br>
-               
-               <button><a href="https://www.youtube.com/channel/UC3FNkkXG-1Eyde5zVfXzNWA" target="_blank">more</a></button>
+
+               <button><a href="https://www.youtube.com/channel/UC3FNkkXG-1Eyde5zVfXzNWA"
+                         target="_blank">more</a></button>
           </div>
-          
-          
+
+
      </section>
 
      <!-- --------------------------------- -->
@@ -145,25 +235,30 @@
 
      <footer class="center" id="contact">
           <div class="footer-text">Contact</div>
-          <a href="https://www.facebook.com/chathai.2xxx/" target="_blank"><img class="center footer-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png" alt=""></a>
+          <a href="https://www.facebook.com/chathai.2xxx/" target="_blank"><img class="center footer-img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png"
+                    alt=""></a>
           <a href="https://www.instagram.com/potatiz_030/" target="_blank"><img class="center footer-img"
                     src="https://icon-library.com/images/facebook-icon-transparent-background/facebook-icon-transparent-background-2.jpg"
                     alt=""></a>
           <a href="https://twitter.com/chhharliex" target="_blank"><img class="center footer-img"
-                    src="https://cdn-icons-png.flaticon.com/512/124/124021.png"
-                    alt=""></a>
+                    src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt=""></a>
           <a href="https://www.deviantart.com/katyucheee" target="_blank"><img class="center footer-img"
-                    src="https://img.utdstc.com/icon/4a3/782/4a3782884f629576714a15d9273a34b9904a0647175c263ab768b6a071b01c9e:200" alt=""></a>
-          <a href="https://www.youtube.com/channel/UCfZQVq70uks8nm9DBDb0T7g" target="_blank"><img class="center footer-img"
+                    src="https://img.utdstc.com/icon/4a3/782/4a3782884f629576714a15d9273a34b9904a0647175c263ab768b6a071b01c9e:200"
+                    alt=""></a>
+          <a href="https://www.youtube.com/channel/UCfZQVq70uks8nm9DBDb0T7g" target="_blank"><img
+                    class="center footer-img"
                     src="https://cdn.icon-icons.com/icons2/1907/PNG/512/iconfinder-youtube-4555888_121363.png"
                     alt=""></a>
           <a href="https://www.pixiv.net/en/users/28046652" target="_blank"><img class="center footer-img"
-                    src="https://play-lh.googleusercontent.com/8pFuLOHF62ADcN0ISUAyEueA5G8IF49mX_6Az6pQNtokNVHxIVbS1L2NM62H-k02rLM=w512" alt=""></a>
+                    src="https://play-lh.googleusercontent.com/8pFuLOHF62ADcN0ISUAyEueA5G8IF49mX_6Az6pQNtokNVHxIVbS1L2NM62H-k02rLM=w512"
+                    alt=""></a>
           <a href="https://ko-fi.com/abyzz" target="_blank"><img class="center footer-img"
                     src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/61e1116779fc0a9bd5bdbcc7_Frame%206.png"
                     alt=""></a>
      </footer>
-     
-     
+
+
 </body>
+
 </html>
