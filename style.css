@@ -45,7 +45,7 @@ aside {
 footer {
     clear: both;
     border-top: 3px solid hsl(0, 53%, 19%);
-    height: 50px;
+    height: 100%;
     background-color: hsl(0, 63%, 54%);
 }
 
@@ -100,6 +100,15 @@ img {
     text-align: left;
     font-size: clamp(24px, 3vw, 62px);
     font-family: nos;
+}
+.footer-text{
+    margin:10px 0px;
+}
+.footer-img{
+    height: 30px;
+    width: 30px;
+    padding: 5px 5px;
+    
 }
 .commission-info{
     color: white;
