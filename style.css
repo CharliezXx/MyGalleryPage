@@ -3,6 +3,24 @@
     src: url(/fonts/blankenburg/Blankenburg.ttf);
 }
 
+table, th{
+    color: aliceblue;
+    margin: auto;
+    font-size: clamp(10px, 3vw, 24px);
+    padding: auto;
+    border: 3px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    background-color: rgb(75, 75, 75);
+}
+td {
+    color: rgb(37, 170, 37);
+    margin: auto;
+    padding: auto;
+    border: 1px solid rgb(54, 26, 26);
+    border-collapse: collapse;
+    font-size: clamp(6px, 3vw, 18px);
+}
+
 body {
     max-width: 100%;
     background-image: url(https://raw.githubusercontent.com/CharliezXx/MyGalleryPage/main/img/backgorund.png);
@@ -79,6 +97,13 @@ img {
 }
 
 .videoshowcase {
+    background-color: #b6b6b6;
+    padding: 2%;
+    margin: 10px 20%;
+    border-radius: 2px;
+}
+
+.commission-section {
     background-color: #b6b6b6;
     padding: 2%;
     margin: 10px 20%;
