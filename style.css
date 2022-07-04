@@ -2,13 +2,17 @@
     font-family: nos;
     src: url(/fonts/blankenburg/Blankenburg.ttf);
 }
-.closed{
+
+.closed {
     color: red;
 }
-.open{
+
+.open {
     color: green;
 }
-table, th{
+
+table,
+th {
     color: aliceblue;
     margin: 10px auto;
     font-size: clamp(10px, 3vw, 24px);
@@ -16,8 +20,9 @@ table, th{
     border: 3px solid rgb(0, 0, 0);
     border-collapse: collapse;
     background-color: rgb(80, 62, 62);
-    
+
 }
+
 td {
     color: rgb(37, 170, 37);
     margin: auto;
@@ -73,12 +78,38 @@ footer {
     background-color: hsl(0, 63%, 54%);
 }
 
+div::selection{
+    background:hsl(0, 30%, 54%) ;
+    color: black;
+}
+strong::selection{
+    background:hsl(0, 30%, 54%) ;
+    color: black;
+}
+
 img {
     width: 190px;
     height: 190px;
     object-fit: cover;
 }
 
+button {
+    outline: 1.5px solid hsl(0, 30%, 54%);
+    outline-offset: 0.2rem;
+    border-radius: 0%;
+    margin: 5px 5px;
+    background-color: hsl(0, 30%, 54%);
+    border: 0px;
+}
+
+.nav-button {
+    outline: 1.5px solid hsl(0, 76%, 87%);
+    outline-offset: 0.2rem;
+    border-radius: 0%;
+    margin: 5px 5px;
+    background-color: hsl(0, 76%, 87%);
+    border: 0px;
+}
 
 .center {
     text-align: center;
@@ -154,10 +185,11 @@ img {
 .commission-status {
     color: white;
 }
-.commission-info{
+
+.commission-info {
     text-align: left;
     font-size: clamp(6px, 3vw, 18px);
-    
+
 }
 
 html {
