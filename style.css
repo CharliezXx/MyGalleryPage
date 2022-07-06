@@ -50,11 +50,21 @@ header {
 
 nav {
     position: sticky;
+    overflow: hidden;
     background-color: hsl(0, 29%, 60%);
     height: 40px;
     padding: 10px;
     top: 0;
+}
 
+.stripes {
+    background-image: repeating-linear-gradient(
+        -45deg,
+        #8b89ff 0px,
+        #8b89ff 20px,
+        #6765ff 20px,
+        #6765ff 40px,
+    );
 }
 
 section {
@@ -140,6 +150,7 @@ button:hover,button:active {
     padding: 2%;
     margin: 10px 20%;
     border-radius: 2px;
+    
 }
 
 .commission-section {
