@@ -135,6 +135,7 @@ button:hover,button:active {
     padding: 2%;
     margin: 0 20%;
     border-radius: 2px;
+    box-shadow: 5px 5px hsl(0, 30%, 54%);
 }
 
 .videoshowcase {
@@ -142,6 +143,7 @@ button:hover,button:active {
     padding: 2%;
     margin: 10px 20%;
     border-radius: 2px;
+    box-shadow: 5px 5px hsl(0, 30%, 54%);
     
 }
 
